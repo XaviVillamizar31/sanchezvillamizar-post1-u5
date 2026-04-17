@@ -47,16 +47,9 @@
 ''}">${t.titulo}</td>
             <td>${t.completada ? "Completada" : "Pendiente"}</td>
             <td>
-                <form method="post"
-                      action="${pageContext.request.contextPath}/tareas">
-                    <input
-                            type="hidden"
-                            value="eliminar">
-                    name="accion"
-                    <input
-                            type="hidden"
-                            value="${t.id}">
-                    name="id"
+                <form method="post" action="${pageContext.request.contextPath}/tareas">
+                    <input type="hidden" name="accion" value="eliminar">
+                    <input type="hidden" name="id" value="${t.id}">
                     <button type="submit">Eliminar</button>
                 </form>
             </td>
