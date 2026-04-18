@@ -1,13 +1,24 @@
-Gestión de Tareas con Servlet
+## Gestión de Tareas con Servlet
 Programación Web — Unidad 5: Fundamentos de Java Web (Servlets y JSP)
+Universidad Internacional de Santander (UDES) — Ingeniería de Sistemas 2026
+
+## Descripción
+Aplicación web mínima para gestionar una lista de tareas en memoria. Implementa un Servlet funcional que procesa peticiones HTTP GET y POST, gestiona parámetros de formularios HTML, aplica validación en el servidor y transfiere datos a una vista JSP mediante RequestDispatcher, siguiendo el patrón Post/Redirect/Get.
+
+## Prerrequisitos
+Java Development Kit (JDK) 17 o superior
+Apache Tomcat 10.x
+IntelliJ IDEA
+Maven 3.8+
+Navegador web moderno (Chrome, Firefox) con DevTools
+
 
 ## Instrucciones de ejecución
-
-1. Clonar el repositorio y abrir en IntelliJ
-2. Ejecutar `mvn clean package` en la terminal
-3. Configurar Tomcat: Run → Edit Configurations → + → Tomcat Server → Local
-4. En Deployment agregar el artefacto `.war exploded`
-5. Ejecutar y abrir `http://localhost:8080/gestion-tareas/tareas`
+Clonar el repositorio y abrir en IntelliJ
+Ejecutar mvn clean package en la terminal
+Configurar Tomcat: Run → Edit Configurations → + → Tomcat Server → Local
+En Deployment agregar el artefacto .war exploded
+Ejecutar y abrir http://localhost:8080/gestion-tareas/tareas
 
 ## Capturas de Pantalla
 Sin conexion a ServLet
