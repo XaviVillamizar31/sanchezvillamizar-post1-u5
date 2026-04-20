@@ -1,6 +1,6 @@
 ## Gestión de Tareas con Servlet
 Programación Web — Unidad 5: Fundamentos de Java Web (Servlets y JSP)
-Universidad Internacional de Santander (UDES) — Ingeniería de Sistemas 2026
+Universidad de Santander (UDES) — Ingeniería de Sistemas 2026
 
 ## Descripción
 Aplicación web mínima para gestionar una lista de tareas en memoria. Implementa un Servlet funcional que procesa peticiones HTTP GET y POST, gestiona parámetros de formularios HTML, aplica validación en el servidor y transfiere datos a una vista JSP mediante RequestDispatcher, siguiendo el patrón Post/Redirect/Get.
